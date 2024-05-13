@@ -8,7 +8,7 @@ import axios from "axios";
 export default function Home() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [language, setLanguage] = useState("");
+  const [language, setLanguage] = useState("English");
   const [statusMessage, setStatusMessage] = useState(""); 
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -67,7 +67,7 @@ export default function Home() {
                 onChange={handleSetLanguage}
                 className="text-white  mb-4 w-full px-4 py-2 text-lg bg-transparent border-b-2 border-black focus:border-white outline-none placeholder-white"
               >
-                <option value="english">English</option>
+                <option value="English">English</option>
                 <option value="French">French</option>
                 <option value="Portugues">Portugues</option>
               </select>
