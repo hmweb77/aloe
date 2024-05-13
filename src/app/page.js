@@ -57,6 +57,7 @@ export default function Home() {
                 className="mb-4 w-full px-4 py-2 text-lg bg-transparent border-b-2 border-black focus:border-white outline-none placeholder-white"
                 type="text"
                 placeholder="Firstname"
+                required
               />
               <label className=" text-white mb-4 w-full px-4 py-2 text-lg bg-transparent  ">
                 {" "}
@@ -77,6 +78,7 @@ export default function Home() {
                 className="w-full px-4 py-2 text-lg bg-transparent border-b-2 border-black focus:border-white outline-none placeholder-white"
                 type="email"
                 placeholder="E-mail"
+                required
               />
             </div>
             {!isSubmitting ? (
